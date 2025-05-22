@@ -1,21 +1,37 @@
 {
-  "name": "dogge-light",
+  "name": "puppy-light",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-native-community/slider": "^4.5.5",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@types/react-native": "^0.73.0",
     "expo": "~52.0.24",
+    "expo-blur": "~14.0.1",
+    "expo-brightness": "~13.0.2",
+    "expo-camera": "^16.0.10",
+    "expo-media-library": "^17.0.4",
     "expo-status-bar": "~2.0.0",
+    "expo-system-ui": "~4.0.6",
     "react": "18.3.1",
-    "react-native": "0.76.5"
+    "react-native": "0.76.5",
+    "react-native-safe-area-context": "^5.1.0",
+    "react-native-screens": "^4.4.0",
+    "react-native-toast-message": "^2.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.25.2",
+    "@types/expo": "^33.0.3",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
   },
   "private": true
 }
